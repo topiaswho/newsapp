@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SavedArticles from './components/SavedArticles';
-import Newsapp from './components/newsapp';
+import Newsapp from './components/index';
 
 const Stack = createNativeStackNavigator();
 
